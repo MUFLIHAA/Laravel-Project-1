@@ -18,6 +18,6 @@ address varchar(255)
 • Sector_id is a foreign key for another table that stores the sectors (Accounting, Arts,
 Fashion, ...)
 • Sectors table only have ID and name
-• The response should be in JSON format
-• The first end point (GET /companies) should support filtering the data by the field
+• The response in JSON format
+• The first endpoint (GET /companies) should support filtering the data by the field
 value and supports pagination. i.e. /companies?pageSize=10&page=1&name=”abc”
